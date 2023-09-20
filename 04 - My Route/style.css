@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #ecedee;
+}
+.my-route{
+    padding: 37px 28px;
+}
+.my-route__back-container{
+    text-align: right;
+}
+.my-route__back{
+    margin-right: 0;
+    margin-bottom: 36px;
+}
+.my-route__container{
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 10px 40px 0px rgba(0, 25, 73, 0.10);
+    padding: 25px 21px;
+    padding-bottom: 72px;
+}
+.my-route__title{
+    color: #595F84;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    margin-bottom: 31px;
+}
+/* .my-route__items__container{} */
+.my-route__item{
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.my-route__item:hover{
+    background-color: rgba(235, 245, 255, 1);
+}
+.my-route__item:hover .my-route__item-amount{
+    background: #1F84FF; 
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+.my-route__item-checkbox{
+    padding: 9px 11px;
+    display: flex;
+    align-items: center;
+    color: #595F84;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+.my-route__item-check-input{
+    color: #595F84;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    border-radius: 5px;
+}
+.my-route__item-check-input:checked + h3{
+    color: #1F84FF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family:" Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+.my-route__item-title{
+    color: #595F84;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    margin-left: 19px;
+}
+.my-route__item-title span{
+    display: inline-block;
+    margin-right: 19px;
+}
+.my-route__item-amount{
+    color: #595F84;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    padding: 7px 18px;
+    border-radius: 0px 8px 8px 0px; 
+}
