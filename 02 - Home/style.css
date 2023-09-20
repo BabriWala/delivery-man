@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #F7F8FA;
+}
+.home{
+    padding: 48px 30px;
+    border-radius: 30px;
+}
+.home__header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.home__overview{
+    margin-bottom: 32px;
+}
+.home__overview-title{
+    color:#222950;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.home__overview-description{
+    color: #8A94A6;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.714%; /* 18.72px */
+}
+.home__overview-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 17px;
+}
+.home__item{
+    border-radius: 16px;
+    border: 1px solid #FFF;
+    background: #FFF;
+
+    /* shadow-sm */
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.03);
+    text-align: center;
+    cursor: pointer;
+}
+.home__item-icon{
+    margin: 21px 0px 0px 0px;
+    margin-bottom: 8px;
+}
+.home__item-title{
+    color: #595F84;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 16.5px */
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.home__item-price{
+    background: #F7F8FA; 
+    padding: 9px;
+    color: #222950;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 25.5px */
+    text-transform: uppercase;
+}
+
+
+/* Footer */
+.footer{
+    padding: 22px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+    background: #FFF;
+    box-shadow: 0px -5px 50px 0px rgba(0, 45, 94, 0.12);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
