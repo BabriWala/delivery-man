@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #F7F8FA;
+}
+
+.order{
+    padding: 48px 30px;
+    border-radius: 30px;
+}
+.order__header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.order__overview{
+    margin-bottom: 32px;
+}
+.order__overview-title{
+    color:#222950;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.order__overview-description{
+    color: #8A94A6;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.714%; /* 18.72px */
+}
+
+.order__activity{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 17px;
+    margin-bottom: 32px;
+}
+.order__activity-item{
+    border-radius: 12px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order__activity-title{
+    padding: 9px;
+}
+.order__activity-icon{
+    margin-right: 11px;
+}
+.order__activity-title{
+    color: var(--black-2, #595F84);
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 183.333% */
+    display: flex;
+    align-items: center;
+}
+.order__activity-amount{
+    color: #05BB42;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 183.333% */
+    margin-right: 20px;
+}
+
+.order__activity-item:nth-child(1) .order__activity-amount{
+    color: #05BB42;
+}
+.order__activity-item:nth-child(2) .order__activity-amount{
+    color: #E69D49; 
+}
+.order__activity-item:nth-child(3) .order__activity-amount{
+    color: #E8515A; 
+}
+.order__activity-item:nth-child(4) .order__activity-amount{
+    color: #9A7EFF; 
+}
+
+.order__route{
+    margin-bottom: 55px;
+    position: relative;
+}
+/* .order__route img{} */
+.order__route-select{
+    width: 282px; 
+    border-radius: 10px;
+    border: 1px solid rgba(46, 49, 133, 0.08);
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(0, 46, 97, 0.05);
+    color: #595F84;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    text-align: left;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: -30px;
+}
+
+.order__divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 17px;
+}
+.order__divider-item{
+    width: 54px;
+    height: 1px;
+    background: rgba(100, 116, 139, 0.36);
+}
+.order__divider-item-title{
+    color: #222950;
+    text-align: center;
+    font-family: "Baloo Da 2";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0 16px;
+    display: inline-block;
+}
+.order__sr{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.05);
+    margin-bottom: 17px;
+}
+.order__sr-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px;
+}
+
+.order__sr-image{
+    display: flex;
+    align-items: center;
+}
+.order__sr-image img{
+    margin-right: 18px;
+}
+.order__sr-title{
+    color: #222950;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+.order__sr-btn{
+    padding: 3px 10px;
+    color: #007AFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    line-height: 160%; /* 19.2px */
+    border-radius: 50px;
+    background: rgba(0, 122, 255, 0.04);
+}
+.order__sr-activity{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid rgba(46, 49, 133, 0.08);
+}
+.order__sr-item{
+    text-align: center;
+    border-right: 1px solid rgba(46, 49, 133, 0.08);
+}
+.order__sr-item:last-child{
+    border: none;
+}
+.order__sr-item-title{
+    color: #8A94A6;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
+.order__sr-item-amount{
+    color: #595F84;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.order__sr-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 17px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.05);
+}
+
+.order__details-image{
+    display: flex;
+    align-items: center;
+}
+
+.order__ser-details-img{
+    margin-right: 18px;
+}
+.order__sr-details-title{
+    color: #222950;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    margin-left: 18px;
+}
+.order__details-dropdown{
+    display: flex;
+    align-items: center;
+}
+.order__details-dropdown-title{
+    padding: 0px 8px;
+    border-radius: 50px;
+    background: #007AFF;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 19.2px */
+    margin-right: 15px;
+}
