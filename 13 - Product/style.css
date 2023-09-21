@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product{
+    padding: 37px 28px;
+}
+.product__header{
+    margin-bottom: 46px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product__header-icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.product__header-title{
+    color: #222950;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.714%; /* 21.394px */
+    letter-spacing: 0.48px;
+}
+.product__sr-title{
+    color: #222950;
+    text-align: left;
+    font-family: "Baloo Da 2";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.714%; /* 21.394px */
+    letter-spacing: 0.48px;
+    margin-bottom: 18px;
+}
+
+.product__sr-description{
+    color: #8A94A6;
+    font-family: "Baloo Da 2";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.714%; /* 16.046px */
+    letter-spacing: 0.36px;
+    margin-bottom: 35px;
+}
+
+.product__profile{
+    border-radius: 10px;
+    background: #FFF;
+
+    /* shadow-sm */
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.03);
+    padding: 17px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.profile__image{
+    display: flex;
+    align-items: center;
+}
+.profile_img{
+    margin-right: 18px;
+}
+.profile__title{
+    color: #222950;
+    font-family: "Baloo Da 2";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.322px; /* 119.347% */
+    letter-spacing: -0.286px;
+}
+.profile__title span{
+    color: #8094AA;
+    font-family: "Baloo Da 2";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.322px;
+    letter-spacing: -0.286px;
+    display: inline-block;
+    padding-left: 10px;
+
+}
+.profile__amount{
+    color: #007AFF;
+    font-family: "Baloo Da 2";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29.07px; /* 161.498% */
+    letter-spacing: 0.32px;
+    /* padding-left: 10px; */
+}
