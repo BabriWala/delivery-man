@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f8fa;
+}
+.pending-damage{
+    margin: 37px 28px;
+}
+.pending-damage__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* margin-bottom: 32px; */
+}
+.pending-damage__header svg{
+    position: fixed;
+    left: 28px;
+}
+.pending-damage__header-title{
+    color: #222950;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.714%; /* 21.394px */
+    letter-spacing: 0.48px;
+}
+.total__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 122, 255, 0.17);
+    background: #FAFCFF;
+    padding: 30px 28px;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+.total-image{
+    display: flex;
+    align-items: center;
+}
+.total-image h3{
+    color: #303335;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 22.4px */
+    margin-left: 13px;
+}
+.total__container h2{
+    color: #007AFF;
+    text-align: right;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.pending-damage__profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.05);
+    margin-bottom: 20px;
+    padding: 17px;
+}
+.profile__image{
+    display: flex;
+    align-items: center;
+}
+.profile__details{
+    margin-left: 18px;
+}
+.profile__details-title{
+    color: #222950;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+.profile__details-interested{
+    color: #8A94A6;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.profile__dropdown button{
+    padding: 5px 16px;
+    border-radius: 50px;
+    background: #FFFAFA;
+    color: #F56262;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 22.4px */
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
